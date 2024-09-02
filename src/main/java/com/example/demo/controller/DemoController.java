@@ -13,5 +13,14 @@ public class DemoController {
 		return "Welcome to demo application";
 	}
 	
+	@GetMapping("/greeting")
+	public String greeting() {
+		return "Welcome to greeting application";
+	}
+	@GetMapping("/hello")
+	public String hello() {
+		return "Welcome to hello application";
+	}
+	
 
 }
